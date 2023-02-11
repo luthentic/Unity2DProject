@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title></title>
+  <meta name="description" content="" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous" />
+  <style>
+    .card {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Lee's store</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#">Electronic Devise</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Apparel</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Food</a>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" />
+          <button class="btn btn-outline-success" type="submit">
+            Search
+          </button>
+        </form>
+      </div>
+    </div>
+  </nav>
+
+  <main class="mt-3">
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-5">
+          <div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+
+              <div class="carousel-item active" data-bs-interval="10000">
+                <img src="https://images.ctfassets.net/8utyj17y1gom/36TKji6orQcrfuVTj8w497/6c33c35d2b8cadf15431e603005ea9ff/apple-iPhone-XR-blk-front.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="2000">
+                <img src="https://images.ctfassets.net/8utyj17y1gom/5pSEeQKDidnDkh7qrvIeO5/07a59d445924ae015a5bfdbffde579ac/apple-iPhone-XR-blk-side.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+
+              <div class="carousel-item" data-bs-interval="3000">
+                <img src="https://images.ctfassets.net/8utyj17y1gom/2Ttj6cApJWKiZZZtkxhNuy/b1a9b7970fb1b7a6a20f313c69b60619/apple-iPhone-XR-blk-back.png" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+              </div>
+
+
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-7 mt-5">
+          <div class="card shadow-sm">
+            <div class="card-body">
+              <h5 class="card-title">iPhoneX</h5>
+              <h5 class="card-title pt-3 border-top">550.00$</h5>
+
+              <p class="card-text border-top">
+                <span class="badge bg-dark">Electronic Devise</span>
+                <span class="badge bg-dark">Mobile Phone</span>
+                <span class="badge bg-dark">Apple</span>
+              </p>
+
+              <p class="card-text pb-3">
+                | Free SHIPPING | 10 DAYS REPLACEMENT | SECURE PAYMENT |
+              </p>
+
+              <p class="card-text border-top pb-3">
+              <div class="row">
+                <div class="col-auto">
+                  <label class="col-form-label">Quantity</label>
+                </div>
+                <div class="col-auto">
+                  <div class="input-group mb-3">
+                    <span class="input-group-text">+</span>
+                    <input type="text" class="form-control" style="width:40px;" value="1">
+                    <span class="input-group-text">-</span>
+                  </div>
+                </div>
+              </div>
+              </p>
+
+              <div class="row pt-3 bt-3 border-top">
+                <div class="col-6">
+                  <h3>TOTAL PRICE:</h3>
+                </div>
+
+                <div class="col-6" style="text-align:right">
+                  <h3>550.00$</h3>
+                </div>
+              </div>
+
+              <div class="row mt-3">
+                <div class="col-6 d-grid p-1">
+                  <button type="button" class="btn btn-lg btn-dark">
+                    Purchase
+                  </button>
+                </div>
+
+                <div class="col-6 d-grid p-1">
+                  <button type="button" class="btn btn-lg btn-danger">
+                    Add to Cart
+                  </button>
+
+                </div>
+              </div>
+
+
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <!-- <div class="row">
+        <div class="col-12 mt-5">
+          <img src="https://images.ctfassets.net/wcfotm6rrl7u/1GLNy00mgUc5qERvUCYXpn/7fd37ff4dce3cb440c385561248a102b/nokia_3_4-DESIGN_devices-desktop.png?w=828&h=1230&fm=webp&f=center&fit=fill&q=88" />
+
+        </div>
+      </div> -->
+  </main>
+
+  <footer class="mt-5 py-5">
+    <div class="row">
+      <div class="col-12 col-md">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="d-block mb-2" role="img" viewBox="0 0 24 24">
+          <title>Product</title>
+          <circle cx="12" cy="12" r="10" />
+          <path d="M14.31 8l5.74 9.94M9.69 8h11.48M7.38 12l5.74-9.94M9.69 16L3.95 6.06M14.31 16H2.83m13.79-4l-5.74 9.94" />
+        </svg>
+        <small class="d-block mb-3 text-muted">&copy; 2017–2021</small>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Features</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Cool stuff</a></li>
+          <li><a class="link-secondary" href="#">Random feature</a></li>
+          <li><a class="link-secondary" href="#">Team feature</a></li>
+          <li><a class="link-secondary" href="#">Stuff for developers</a></li>
+          <li><a class="link-secondary" href="#">Another one</a></li>
+          <li><a class="link-secondary" href="#">Last time</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Resource name</a></li>
+          <li><a class="link-secondary" href="#">Resource</a></li>
+          <li><a class="link-secondary" href="#">Another resource</a></li>
+          <li><a class="link-secondary" href="#">Final resource</a></li>
+        </ul>
+      </div>
+      <div class="col-6 col-md">
+        <h5>Resources</h5>
+        <ul class="list-unstyled text-small">
+          <li><a class="link-secondary" href="#">Business</a></li>
+          <li><a class="link-secondary" href="#">Education</a></li>
+          <li><a class="link-secondary" href="#">Government</a></li>
+          <li><a class="link-secondary" href="#">Gaming</a></li>
+        </ul>
+        < /div>
+          <d iv class="col-6 col-md">
+            <h5>About</h5>
+            <ul class="list-unstyled text-small">
+              <li><a class="link-secondary" href="#">Team</a></li>
+              <li><a class="link-secondary" href="#">Locations</a></li>
+              <li><a class="link-secondary" href="#">Privacy</a></li>
+              <li><a class="link-secondary" href="#">Terms</a></li>
+            </ul>
+      </div>
+    </div>
+    </f ooter>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.6.0/dist/umd/popper.min.js" integrity="sha384-KsvD1yqQ1/1+IA7gi3P0tyJcT3vR+NdBTt13hSJ2lnve8agRGXTTyNaBYmCR/Nwi" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.min.js" integrity="sha384-nsg8ua9HAw1y0W1btsyWgBklPnCUAFLuTMS2G72MMONqmOymq585AcH49TLBQObG" crossorigin="anonymous"></script>
+</body>
+
+</html>
