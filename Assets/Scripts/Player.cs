@@ -7,12 +7,17 @@ public class Player : MonoBehaviour
 {
 
     public Vector2 inputVec;
-    Rigidbody2D rb;
     public float speed;
+    Rigidbody2D rb;
+    SpriteRenderer spriter;
+    Animator animator;
+
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
+        spriter = GetComponent<SpriteRenderer>();
+        animator = GetComponent<Animator>();
     }
 
 
@@ -20,6 +25,16 @@ public class Player : MonoBehaviour
     {
         Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
         rb.MovePosition(rb.position + nextVec); // add location
+    }
+
+    private void LateUpdate()
+    {
+        animator.SetFloat("Speed", inputVec.magnitude);
+
+        if(inputVec.x != 0)
+        {
+            spriter.flipX = inputVec.x < 0;
+        }
     }
 
     void OnMove(InputValue value)
