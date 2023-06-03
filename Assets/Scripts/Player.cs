@@ -6,11 +6,11 @@ using UnityEngine.InputSystem;
 public class Player : MonoBehaviour
 {
 
-    public Vector2 inputVec;
+    [Header("Vector")]public Vector2 inputVec;
     public float speed;
     Rigidbody2D rb;
     SpriteRenderer spriter;
-    Animator animator;
+    [SerializeField] Animator animator;
 
     // Start is called before the first frame update
     void Awake()
