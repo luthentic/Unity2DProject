@@ -4778,7 +4778,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 9.645833
+  orthographic size: 7
   m_Depth: 0
   m_CullingMask:
     serializedVersion: 2
@@ -9600,13 +9600,13 @@ SpriteRenderer:
   m_SortingOrder: 5
   m_Sprite: {fileID: 1122334131, guid: 99a24620d31e5ce4e823c32d11e17c2c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_FlipX: 0
+  m_FlipX: 1
   m_FlipY: 0
   m_DrawMode: 0
   m_Size: {x: 1, y: 1.1111112}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 1
+  m_WasSpriteAssigned: 0
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!4 &523632362
@@ -9640,7 +9640,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   inputVec: {x: 0, y: 0}
   speed: 10
-  animator: {fileID: 0}
+  ani: {fileID: 0}
 --- !u!114 &523632364
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9681,7 +9681,7 @@ Animator:
   m_GameObject: {fileID: 523632358}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 3be581ba0b67d2243be417f1bad6e1b6, type: 2}
+  m_Controller: {fileID: 22100000, guid: 86d6970e183eaf340a1b4673406bbc6b, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -18914,7 +18914,7 @@ MonoBehaviour:
   m_Follow: {fileID: 523632362}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 9.645833
+    OrthographicSize: 7
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

@@ -10,26 +10,26 @@ public class Player : MonoBehaviour
     public float speed;
     Rigidbody2D rb;
     SpriteRenderer spriter;
-    [SerializeField] Animator animator;
+    [SerializeField] Animator ani;
 
     // Start is called before the first frame update
     void Awake()
     {
         rb = GetComponent<Rigidbody2D>();
         spriter = GetComponent<SpriteRenderer>();
-        animator = GetComponent<Animator>();
+        ani = GetComponent<Animator>();
     }
 
 
     void FixedUpdate()
     {
-        Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime;
+        Vector2 nextVec = inputVec * speed * Time.fixedDeltaTime; // condisering diagonal movement
         rb.MovePosition(rb.position + nextVec); // add location
     }
 
     private void LateUpdate()
     {
-        animator.SetFloat("Speed", inputVec.magnitude);
+        ani.SetFloat("Speed", inputVec.magnitude);
 
         if(inputVec.x != 0)
         {

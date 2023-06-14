@@ -25,8 +25,8 @@ public class Reposition : MonoBehaviour
 
         Vector3 playerDir = GameManager.instance.player.inputVec;
 
-        dirX = playerDir.x < 0 ? -1 : 1;
-        dirY = playerDir.y < 0 ? -1 : 1;
+        dirX = dirX > 0 ? 1 : -1;
+        dirY = dirY > 0 ? 1 : -1;
 
         switch (transform.tag)
         {
