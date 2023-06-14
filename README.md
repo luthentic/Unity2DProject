@@ -6,14 +6,20 @@ Rocter Dungeon
 ## Assets:
 Undead Survivor Assets Pack: https://assetstore.unity.com/packages/2d/undead-survivor-assets-pack-238068
 
-## Functions:
-Move
-
-Attack
-
-Enemy Spawning 
+## Play FlowChart:
 
 
+## Bugs:
+
+![playerBug](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/c0943d29-a297-4259-89ef-40569b58f7e2)
+
+Player display is on and off by itself
+
+![anierror](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/c1459a31-6435-4185-a723-061d6947bf59)
+
+check the Animator -> Animator display Error
+
+![fixed](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/e4dd64d9-1a5f-4a01-88e2-f42a5c85e7fa)
 
 ## Learned:
 
@@ -48,6 +54,24 @@ https://docs.unity3d.com/Manual/2DSorting.html
 The Input Manager window allows you to define input axes and their associated actions for your Project. To access it, from Unity’s main menu, go to Edit > Project Settings, then select Input Manager from the navigation on the right.
 
 https://docs.unity3d.com/Manual/class-InputManager.html
+
+Window -> Package Manager
+
+![image](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/d2da66bf-a218-4f24-b6ec-fc5f90feeee4)
+
+![adsf](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/0afd25e6-f6f2-4a5e-893d-e064c00b990e)
+
+![image](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/71fa8c5a-db82-4338-a10c-980eec9624b4)
+
+![onmove](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/28bec302-5afa-4a1a-826c-56a38d6982b5)
+
+Add using UnityEngine.InputSystem;
+
+![image](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/fd3df339-5f82-4141-93bd-cf290b6d6b7b)
+
+Why should we use new input system:
+
+https://medium.com/codex/why-you-should-use-unitys-new-input-system-268773863c4
 
 <br/>
 
