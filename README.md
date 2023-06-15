@@ -2,21 +2,9 @@
 
 Rocter Dungeon   
 
-<br/>
-<br/>
-<br/>
-
 ## Assets:
 
 Undead Survivor Assets Pack: https://assetstore.unity.com/packages/2d/undead-survivor-assets-pack-238068
-
-<br/>
-<br/>
-<br/>
-
-## Play FlowChart:
-
-
 
 <br/>
 <br/>
@@ -124,6 +112,7 @@ Create Animate Override Controller -> Put Original Animator Controller
 ### Cinemachine 
 
 Make camera follow charactor
+
 ![cinemahcine](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/277027cc-9f0a-4fd9-9d0f-849a464bf3fe)
 
   
