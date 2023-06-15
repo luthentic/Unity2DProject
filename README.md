@@ -2,13 +2,25 @@
 
 Rocter Dungeon   
 
+<br/>
+<br/>
+<br/>
+
 ## Assets:
 
 Undead Survivor Assets Pack: https://assetstore.unity.com/packages/2d/undead-survivor-assets-pack-238068
 
+<br/>
+<br/>
+<br/>
+
 ## Play FlowChart:
 
 
+
+<br/>
+<br/>
+<br/>
 
 ## Bugs:
 
@@ -20,7 +32,7 @@ Player display is on and off by itself
 
 ![anierror](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/c1459a31-6435-4185-a723-061d6947bf59)
 
-check the Animator -> Animator display Error
+Fixed: Checked the Animator -> Animator display Error -> Made the animator again -> Implemented new animator
 
 ![fixed](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/e4dd64d9-1a5f-4a01-88e2-f42a5c85e7fa)
 
@@ -109,5 +121,9 @@ Create Animate Override Controller -> Put Original Animator Controller
 
 --- 
 
+### Cinemachine 
+
+Make camera follow charactor
+![cinemahcine](https://github.com/luthentic/Unity2DRoguelikeGame/assets/33567830/277027cc-9f0a-4fd9-9d0f-849a464bf3fe)
 
   
